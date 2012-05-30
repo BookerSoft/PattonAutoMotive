@@ -4,5 +4,14 @@ body{
 	background-image:url(Picture1.png);
 	width:320px;
 	height:240px;
+	background-repeat:no-repeat;
+	background-position:bottom;
 }
-
+body div#title{float:left;
+width:100%;
+height:10%;
+}
+body div#title img{
+width:100%;
+height:100%;
+}

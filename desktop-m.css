@@ -9,10 +9,12 @@ body{
 	min-height:600px;
 	max-height: 768px;
 }
-body div#logo{
-	float:left;
-	width:100px;
-	height:50px;
-	background-color:#000;
+body div#title{float:left;
+width:100%;
+height:10%;
+}
+body div#title img{
+width:100%;
+height:100%;
 }
 
