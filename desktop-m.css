@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(Picture1.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	min-width:768px;
+	max-width:1366px;
+	min-height:600px;
+	max-height: 768px;
+}
+body div#logo{
+	float:left;
+	width:100px;
+	height:50px;
+	background-color:#000;
+}
+
