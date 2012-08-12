@@ -2,8 +2,10 @@
 /* CSS Document */
 
 body {
-	height:320px;
-	width:240px;
+	min-height:240px;
+	max-height:320px;
+	min-width:240px;
+	max-width:320px;
  }
  body div#topbanner{
  width:100%;
@@ -16,7 +18,7 @@ body {
  width:100%;
  height:50%;
  }
- body div#vtabbar{
+ body div#v`tabbar{
  position: absolute;
  top:85; left:0%;
  width:100%; height:8%;
