@@ -16,21 +16,21 @@ body {
  width:100%;
  height:50%;
  }
- body div#tabbar{
+ body div#vtabbar{
  position: absolute;
  top:85; left:0%;
  width:100%; height:8%;
  
  
  }
- body div#tabbar a{
+ body div#vtabbar a{
   height:100%; width:25%;
  border: #D3D3D3 outset 2px; background-color:#7CFC00; color:#FFFFFF;
   text-decoration:none;display:inline-block;
 }
 
 	
- body div#tabbar a p{
+ body div#vtabbar a p{
   position:absolute; top:5%; left:33%;right:47%;
   height:5%;  font-size:16pt;
  background-color:#7CFC00; color:#FFFFFF;
