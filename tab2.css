@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	height:1024px;
+	width:768px;
+ }
+ body div#topbanner{
+ width:100%;
+ height:10%;
+ 
+ position absolute;
+ top:0%; left:0%;
+ }
+ body div#topbanner img{
+ width:100%;
+ height:87%;
+ }
+ body div#vtabbar{
+ position: absolute;
+ top:13%; left:0%;
+ width:15%; height:70%;
+ 
+ 
+ }
+ body div#vtabbar a{
+  height:17.5%; width:98%;
+ border: #D3D3D3 outset 2px; background-color:#7CFC00; color:#FFFFFF;
+  text-decoration:none;display:block;
+}
+
+	
+ body div#vtabbar a p{
+  position:absolute; top:5%; left:33%;right:47%;
+  height:5%;  font-size:16pt;
+ background-color:#7CFC00; color:#FFFFFF;
+  text-decoration:none;display:inline-block;
+}
+ body div#main{
+ position: absolute;
+ top:13%; left:15%;
+ width:85%; height:70%;
+ 
+ }
+ body div#copy{
+ position: absolute;
+ top:83.2%; left:20%;
+ width:50%; height:15%;
+  font-size:16px;
+ }
+
+
