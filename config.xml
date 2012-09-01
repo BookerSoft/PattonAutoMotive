@@ -3,10 +3,10 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.PattonAuto.PAMobile"
         version   = "1.0.0">
-    <name>Hello World</name>
+    <name>PattonAutomotive</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Basic company information for Ron Patton Automotive
     </description>
 
     <author href="http://fandfservices.info" email="yahoobk2007">
