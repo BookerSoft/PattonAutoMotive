@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+<id>com.PattonAuto.PAMobile</id>
+<version>1.0.0</version>
+<name>Patton Automotive</name>
+<description>Basic company informaion for Ron Patton Automotive.</description>
+<preference name="orientation" value="default" />
+<icon src="icon.png" width="57" height="57" /> 
+<icon src="icon=72.png" width="727" height="72" gap:platform="ios" />
+<icon src="icon_at_2x.png" width="122" height="112" />
+<gap:splash src="splash/ios/Default.png" width="320" height="480" />
+<gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" />
+<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />
+<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
+</widget>
