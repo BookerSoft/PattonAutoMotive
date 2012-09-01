@@ -15,12 +15,29 @@ version="1.0.0">
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
-<icon src="icon.png"  /> 
-<icon src="icon.png" width="57" height="57" gap:platform="ios" /> 
-<icon src="icon-72.png" width="72" height="72" gap:platform="ios" />
-<icon src="icon_at_2x.png" width="122" height="112" />
-<gap:splash src="splash/ios/Default.png" width="320" height="480" gap:platform="ios" S/>
-<gap:splash src="splash/ios/Default_at_2x.png" width="640" height="960" gap:platform="ios"/>
-<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" gap:platform="ios" />
-<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" gap:platform="ios" />
+ <icon src="icon.png" />
+    <icon src="icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" />
+    <icon src="res/icon/blackberry/icon-80.png"     gap:platform="blackberry" gap:state="hover"/>
+    <icon src="icon.png"            gap:platform="ios"        width="57" height="57" />
+    <icon src="icon-72.png"            gap:platform="ios"        width="72" height="72" />
+    <icon src="ico572x.png"         gap:platform="ios"        width="114" height="114" />
+    <icon src="ico722x.png"         gap:platform="ios"        width="144" height="144" />
+    <icon src="res/icon/webos/icon-64.png"          gap:platform="webos" />
+    <icon src="res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
+    <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
+
+    <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:density="xhdpi" />
+    <gap:splash src="res/screen/blackberry/screen-225.png"         gap:platform="blackberry" />
+    <gap:splash src="res/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
+    <gap:splash src="res/screen/windows-phone/screen-portrait.jpg" gap:platform="winphone" />
 </widget>
