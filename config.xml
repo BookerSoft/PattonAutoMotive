@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.PattonAuto.PAMobile"
         version   = "1.0.0">
-    <name>PattonAutomotive</name>
+    <name>PattonAuto</name>
 
     <description>
         Basic company information for Ron Patton Automotive
